@@ -18,4 +18,8 @@ Queue的应用非常直观, 就是排队FIFO的情形
 在硬件方面会更耗时, 不同的cpu的这个耗时可以和链表cache miss的耗时对比一下.
 
 同Stack的情况, 多个Queue同时工作时, 为了避免一次性提前占用太多RAM, 最好使用链式栈
+
+还有一种deque, 双端队列, 这个不是purpose oriented而生的
+deque是为了算法使用灵活服务的, 一个deque既可以当栈LIFO, 也可以当队列FIFO
+
 */
