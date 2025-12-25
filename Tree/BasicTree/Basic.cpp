@@ -85,7 +85,6 @@ public:
                 p = temp.pop();
             }
         }
-
     }
 }
 
@@ -99,3 +98,4 @@ void preCopy(TreeNode* node, TreeNode* copy){
     copy->right = new TreeNode;
     preCopy(node->right, copy->right);
 }
+
